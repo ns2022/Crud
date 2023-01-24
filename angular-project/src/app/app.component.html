@@ -1,0 +1,25 @@
+<nav class="navbar" style="background-color: #e3f2fd;">
+  
+
+    <ul class = "top-nav">
+        <li class = "navbar navbar-inverse">
+          
+            <a routerLink="employees" routerLinkActive="active" class="nav-link" >Employee List</a>
+        </li>
+        
+        <li class = "nav-item">
+          <a routerLink="create-employee" routerLinkActive="active" class="nav-link" >Add Employee</a>
+      </li>
+      
+    </ul>
+</nav>
+
+<h1 class="text-center"> {{title}} </h1>
+<div class = "container">
+    <router-outlet></router-outlet>
+</div>
+<footer class = "footer">
+    <div class = "container">
+        <span>All Rights Reserved @NaoufalSrhir</span>
+    </div>
+</footer>

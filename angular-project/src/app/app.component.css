@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    color:bisque;
+    float: left;
+  }
+  
+ 
+  
+  li a {
+    display: inline;
+    padding: 10px;
+    color:coral;
+    float: left;
+  }
